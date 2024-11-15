@@ -32,3 +32,58 @@ img {
     max-width: 100%;
 }
 /*#endregion common*/
+
+/*#region utility*/
+.container {
+    width: 95%;
+    margin: auto;
+
+    @media screen and (min-width: 768px) {
+        width: 85%;
+    }
+
+    @media screen and (min-width: 992px) {
+        width: 75%;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+.shadow {
+    box-shadow: 0 0 5px #9b9b9b;
+}
+/*#endregion utility*/
+
+
+/*#region header*/
+#app_header {
+    font-family: var(--gb-font-family-logo);
+    background-color: var(--gb-lighter);
+    padding: 1rem;
+    box-shadow: 0 0 5px var(--gb-logo-shadow);
+
+    .logo {
+        text-align: center;
+
+        @media(min-width: 768px) {
+            text-align: start;
+        }
+
+        a {
+            color: var(--gb-logo-color);
+            text-decoration: none;
+            font-size: 2.8rem;
+            text-transform: uppercase;
+            text-shadow: 1px 1px var(--gb-logo-shadow);
+        }
+    }
+}
+/*#endregion header*/
