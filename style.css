@@ -1,0 +1,34 @@
+/*#region common*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gb-font-family-logo: "Nerko One", cursive;
+    --gb-font-family-body: "Montserrat", sans-serif;
+    --gb-body-bg: #f6f5f3;
+    --gb-logo-color: #ff9614;
+    --gb-logo-shadow: #a89175;
+    --gb-dark: black;
+    --gb-lighter: white;
+    --gb-primary: #7c69a4;
+    --gb-primary-dark: #4e3969;
+    --gb-light: #a09d9a;
+}
+
+body {
+    font-family: var(--gb-font-family-body);
+    background-color: var(--gb-body-bg);
+}
+
+iframe {
+    display: block;
+}
+
+iframe,
+img {
+    max-width: 100%;
+}
+/*#endregion common*/
